@@ -11,8 +11,7 @@ public static void main(String[] args){
 
     System.setProperty("webdriver.chrome.driver" , "D:\\Belajar Java\\Java\\Mvn.java\\browser\\chromedriver-win64\\chromedriver.exe");
     WebDriver driver = new ChromeDriver();
-    // ChromeOptions Options = new ChromeOptions();
-    // WebDriver driver2   = new ChromeDriver(Options);
+    
     driver.get("https://www.bukalapak.com/c/handphone/hp-smartphone?from=nav_header");
     driver.manage().window().maximize();
 
